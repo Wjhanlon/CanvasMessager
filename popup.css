@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 200px;
+    box-sizing: border-box;
+}
+#canvas-messenger{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+#icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button:hover{
+    filter: invert(23%) sepia(47%) saturate(3860%) hue-rotate(340deg) brightness(87%) contrast(96%);
+    cursor: pointer;
+    height: 26px;
+    width: 26px;
+}
