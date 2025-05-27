@@ -17,7 +17,8 @@
     "service_worker": "background.js"
   },
   "host_permissions": [
-    "*://*.instructure.com/*"
+    "*://*.instructure.com/*",
+    "https://canvas.wpi.edu/*"
   ],
   "options_page": "options.html"
 }
